@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		933B36E91ADBC4DD0078B9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B36E81ADBC4DD0078B9F9 /* main.m */; };
 		933B36EC1ADBC4DD0078B9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B36EB1ADBC4DD0078B9F9 /* AppDelegate.m */; };
-		933B36EF1ADBC4DD0078B9F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B36EE1ADBC4DD0078B9F9 /* ViewController.m */; };
 		933B36F21ADBC4DD0078B9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933B36F01ADBC4DD0078B9F9 /* Main.storyboard */; };
 		933B36F41ADBC4DD0078B9F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933B36F31ADBC4DD0078B9F9 /* Images.xcassets */; };
 		933B36F71ADBC4DD0078B9F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933B36F51ADBC4DD0078B9F9 /* LaunchScreen.xib */; };
 		933B37031ADBC4DD0078B9F9 /* HW_NetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B37021ADBC4DD0078B9F9 /* HW_NetworkingTests.m */; };
+		933B37151ADCF4150078B9F9 /* OreoParkInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B37141ADCF4150078B9F9 /* OreoParkInfoCell.m */; };
+		933B37181ADCF5550078B9F9 /* OreoParkDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B37171ADCF5550078B9F9 /* OreoParkDelegateController.m */; };
+		933B371B1ADD0A510078B9F9 /* OreoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B371A1ADD0A510078B9F9 /* OreoMapViewController.m */; };
+		933B371F1ADD11A70078B9F9 /* OreoCoordinateFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B371E1ADD11A70078B9F9 /* OreoCoordinateFinder.m */; };
+		93D76B3E1AE2293100293C3B /* OreoParkCompletionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D76B3D1AE2293100293C3B /* OreoParkCompletionController.m */; };
+		93D76B411AE2731900293C3B /* OreoParkSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D76B401AE2731900293C3B /* OreoParkSessionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		933B36E81ADBC4DD0078B9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		933B36EA1ADBC4DD0078B9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		933B36EB1ADBC4DD0078B9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		933B36ED1ADBC4DD0078B9F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		933B36EE1ADBC4DD0078B9F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		933B36F11ADBC4DD0078B9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		933B36F31ADBC4DD0078B9F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		933B36F61ADBC4DD0078B9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		933B36FC1ADBC4DD0078B9F9 /* HW-NetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW-NetworkingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B37011ADBC4DD0078B9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933B37021ADBC4DD0078B9F9 /* HW_NetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW_NetworkingTests.m; sourceTree = "<group>"; };
+		933B37131ADCF4150078B9F9 /* OreoParkInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoParkInfoCell.h; sourceTree = "<group>"; };
+		933B37141ADCF4150078B9F9 /* OreoParkInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkInfoCell.m; sourceTree = "<group>"; };
+		933B37161ADCF5550078B9F9 /* OreoParkDelegateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoParkDelegateController.h; sourceTree = "<group>"; };
+		933B37171ADCF5550078B9F9 /* OreoParkDelegateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkDelegateController.m; sourceTree = "<group>"; };
+		933B37191ADD0A510078B9F9 /* OreoMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoMapViewController.h; sourceTree = "<group>"; };
+		933B371A1ADD0A510078B9F9 /* OreoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoMapViewController.m; sourceTree = "<group>"; };
+		933B371D1ADD11A70078B9F9 /* OreoCoordinateFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoCoordinateFinder.h; sourceTree = "<group>"; };
+		933B371E1ADD11A70078B9F9 /* OreoCoordinateFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoCoordinateFinder.m; sourceTree = "<group>"; };
+		93D76B3C1AE2293100293C3B /* OreoParkCompletionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoParkCompletionController.h; sourceTree = "<group>"; };
+		93D76B3D1AE2293100293C3B /* OreoParkCompletionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkCompletionController.m; sourceTree = "<group>"; };
+		93D76B3F1AE2731900293C3B /* OreoParkSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoParkSessionController.h; sourceTree = "<group>"; };
+		93D76B401AE2731900293C3B /* OreoParkSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkSessionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +96,11 @@
 		933B36E51ADBC4DD0078B9F9 /* HW-Networking */ = {
 			isa = PBXGroup;
 			children = (
+				933B371C1ADD11760078B9F9 /* Object */,
+				933B370D1ADBC51B0078B9F9 /* ViewController */,
+				933B370C1ADBC5150078B9F9 /* View */,
 				933B36EA1ADBC4DD0078B9F9 /* AppDelegate.h */,
 				933B36EB1ADBC4DD0078B9F9 /* AppDelegate.m */,
-				933B36ED1ADBC4DD0078B9F9 /* ViewController.h */,
-				933B36EE1ADBC4DD0078B9F9 /* ViewController.m */,
 				933B36F01ADBC4DD0078B9F9 /* Main.storyboard */,
 				933B36F31ADBC4DD0078B9F9 /* Images.xcassets */,
 				933B36F51ADBC4DD0078B9F9 /* LaunchScreen.xib */,
@@ -117,6 +133,39 @@
 				933B37011ADBC4DD0078B9F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		933B370C1ADBC5150078B9F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				933B37131ADCF4150078B9F9 /* OreoParkInfoCell.h */,
+				933B37141ADCF4150078B9F9 /* OreoParkInfoCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		933B370D1ADBC51B0078B9F9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				933B37161ADCF5550078B9F9 /* OreoParkDelegateController.h */,
+				933B37171ADCF5550078B9F9 /* OreoParkDelegateController.m */,
+				93D76B3C1AE2293100293C3B /* OreoParkCompletionController.h */,
+				93D76B3D1AE2293100293C3B /* OreoParkCompletionController.m */,
+				933B37191ADD0A510078B9F9 /* OreoMapViewController.h */,
+				933B371A1ADD0A510078B9F9 /* OreoMapViewController.m */,
+				93D76B3F1AE2731900293C3B /* OreoParkSessionController.h */,
+				93D76B401AE2731900293C3B /* OreoParkSessionController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		933B371C1ADD11760078B9F9 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				933B371D1ADD11A70078B9F9 /* OreoCoordinateFinder.h */,
+				933B371E1ADD11A70078B9F9 /* OreoCoordinateFinder.m */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +212,7 @@
 		933B36DB1ADBC4DD0078B9F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Oreo;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = ALPHACamp;
 				TargetAttributes = {
@@ -219,9 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933B36EF1ADBC4DD0078B9F9 /* ViewController.m in Sources */,
 				933B36EC1ADBC4DD0078B9F9 /* AppDelegate.m in Sources */,
+				93D76B411AE2731900293C3B /* OreoParkSessionController.m in Sources */,
+				93D76B3E1AE2293100293C3B /* OreoParkCompletionController.m in Sources */,
+				933B37181ADCF5550078B9F9 /* OreoParkDelegateController.m in Sources */,
+				933B37151ADCF4150078B9F9 /* OreoParkInfoCell.m in Sources */,
 				933B36E91ADBC4DD0078B9F9 /* main.m in Sources */,
+				933B371F1ADD11A70078B9F9 /* OreoCoordinateFinder.m in Sources */,
+				933B371B1ADD0A510078B9F9 /* OreoMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HW-Networking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HW-Networking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +473,7 @@
 				933B37081ADBC4DD0078B9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		933B37091ADBC4DD0078B9F9 /* Build configuration list for PBXNativeTarget "HW-NetworkingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +482,7 @@
 				933B370B1ADBC4DD0078B9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
