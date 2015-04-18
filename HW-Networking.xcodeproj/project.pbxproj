@@ -19,6 +19,8 @@
 		933B371F1ADD11A70078B9F9 /* OreoCoordinateFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 933B371E1ADD11A70078B9F9 /* OreoCoordinateFinder.m */; };
 		93D76B3E1AE2293100293C3B /* OreoParkCompletionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D76B3D1AE2293100293C3B /* OreoParkCompletionController.m */; };
 		93D76B411AE2731900293C3B /* OreoParkSessionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D76B401AE2731900293C3B /* OreoParkSessionController.m */; };
+		93D76B441AE2857400293C3B /* OreoParkNetworkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D76B431AE2857400293C3B /* OreoParkNetworkingController.m */; };
+		F990621BFDB085A52B5927AE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3508930263E8835F826B20C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F312D65E6C595B0C291E981 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3148E26543D8ADD4339F48FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		933B36E31ADBC4DD0078B9F9 /* HW-Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-Networking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		933B36E71ADBC4DD0078B9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933B36E81ADBC4DD0078B9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +59,9 @@
 		93D76B3D1AE2293100293C3B /* OreoParkCompletionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkCompletionController.m; sourceTree = "<group>"; };
 		93D76B3F1AE2731900293C3B /* OreoParkSessionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoParkSessionController.h; sourceTree = "<group>"; };
 		93D76B401AE2731900293C3B /* OreoParkSessionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkSessionController.m; sourceTree = "<group>"; };
+		93D76B421AE2857400293C3B /* OreoParkNetworkingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OreoParkNetworkingController.h; sourceTree = "<group>"; };
+		93D76B431AE2857400293C3B /* OreoParkNetworkingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OreoParkNetworkingController.m; sourceTree = "<group>"; };
+		D3508930263E8835F826B20C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F990621BFDB085A52B5927AE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5352D3CD5AAE42142F981BF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3508930263E8835F826B20C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		933B36DA1ADBC4DD0078B9F9 = {
 			isa = PBXGroup;
 			children = (
 				933B36E51ADBC4DD0078B9F9 /* HW-Networking */,
 				933B36FF1ADBC4DD0078B9F9 /* HW-NetworkingTests */,
 				933B36E41ADBC4DD0078B9F9 /* Products */,
+				9C5917D872343F7D0E8F5A07 /* Pods */,
+				5352D3CD5AAE42142F981BF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,10 +169,12 @@
 				933B37171ADCF5550078B9F9 /* OreoParkDelegateController.m */,
 				93D76B3C1AE2293100293C3B /* OreoParkCompletionController.h */,
 				93D76B3D1AE2293100293C3B /* OreoParkCompletionController.m */,
-				933B37191ADD0A510078B9F9 /* OreoMapViewController.h */,
-				933B371A1ADD0A510078B9F9 /* OreoMapViewController.m */,
 				93D76B3F1AE2731900293C3B /* OreoParkSessionController.h */,
 				93D76B401AE2731900293C3B /* OreoParkSessionController.m */,
+				93D76B421AE2857400293C3B /* OreoParkNetworkingController.h */,
+				93D76B431AE2857400293C3B /* OreoParkNetworkingController.m */,
+				933B37191ADD0A510078B9F9 /* OreoMapViewController.h */,
+				933B371A1ADD0A510078B9F9 /* OreoMapViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -168,6 +188,15 @@
 			name = Object;
 			sourceTree = "<group>";
 		};
+		9C5917D872343F7D0E8F5A07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3148E26543D8ADD4339F48FB /* Pods.debug.xcconfig */,
+				1F312D65E6C595B0C291E981 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 933B37061ADBC4DD0078B9F9 /* Build configuration list for PBXNativeTarget "HW-Networking" */;
 			buildPhases = (
+				59FA143A855B3594B53A3BC5 /* Check Pods Manifest.lock */,
 				933B36DF1ADBC4DD0078B9F9 /* Sources */,
 				933B36E01ADBC4DD0078B9F9 /* Frameworks */,
 				933B36E11ADBC4DD0078B9F9 /* Resources */,
+				2BE9FF5C3C0B43E038F96EAA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +295,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BE9FF5C3C0B43E038F96EAA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FA143A855B3594B53A3BC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		933B36DF1ADBC4DD0078B9F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,6 +338,7 @@
 				93D76B3E1AE2293100293C3B /* OreoParkCompletionController.m in Sources */,
 				933B37181ADCF5550078B9F9 /* OreoParkDelegateController.m in Sources */,
 				933B37151ADCF4150078B9F9 /* OreoParkInfoCell.m in Sources */,
+				93D76B441AE2857400293C3B /* OreoParkNetworkingController.m in Sources */,
 				933B36E91ADBC4DD0078B9F9 /* main.m in Sources */,
 				933B371F1ADD11A70078B9F9 /* OreoCoordinateFinder.m in Sources */,
 				933B371B1ADD0A510078B9F9 /* OreoMapViewController.m in Sources */,
@@ -400,6 +465,7 @@
 		};
 		933B37071ADBC4DD0078B9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3148E26543D8ADD4339F48FB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HW-Networking/Info.plist";
@@ -411,6 +477,7 @@
 		};
 		933B37081ADBC4DD0078B9F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F312D65E6C595B0C291E981 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HW-Networking/Info.plist";
